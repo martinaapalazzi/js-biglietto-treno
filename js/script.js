@@ -16,3 +16,21 @@ console.log ( 'km', userKm, typeof userKm )
 const userAge = prompt ('Quanti anni hai?')
 
 console.log ( 'age', userAge, typeof userAge )
+
+// km * 0.21€ console.log (math.random)
+
+const ticketPrice = Math (userKm * 0.21)
+
+console.log ( 'price', ticketPrice, typeof ticketPrice )
+
+// if (userAge < 18) { 20% discount }
+// else if (userAge > 65) { 40% discount}
+
+if ( userAge < 18) {
+    20%
+}
+
+
+if ( userAge > 65 ) {
+    40%
+}
