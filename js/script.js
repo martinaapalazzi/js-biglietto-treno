@@ -7,3 +7,12 @@ secondo queste regole:
 - va applicato uno sconto del 40% per gli over 65.
 L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo).
 Questo richiederà un minimo di ricerca. */ 
+
+
+const userKm = prompt ('Quanti km vorebbe percorrere?')
+
+console.log ( 'km', userKm, typeof userKm )
+
+const userAge = prompt ('Quanti anni hai?')
+
+console.log ( 'age', userAge, typeof userAge )
